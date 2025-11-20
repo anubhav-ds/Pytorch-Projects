@@ -34,7 +34,7 @@ Since we trained a 64,64 shaped model it may appear blurry without upscaling but
 
 <img width="1058" height="134" alt="recon" src="https://github.com/user-attachments/assets/723e5292-bf9c-4df8-800e-0ce2a8c4aa46" />
 
-In above image we took batch celebrity images and obtained their latent distribution in form of mu and log variance and use that data to create the image instead of using random noise and we can see that generator was able to learn the latent distributions properly as it was able to add proper variations to the images, like feminizing some source images and even changing race for some.
+In above image we took batch celebrity images and obtained their latent distribution in form of mu and log variance and use that data to create the fake images below. On top we have real images and below we have fake ones, and by using distributions from training images instead of random noises and we can see that generator was able to learn the latent distributions properly as it was able to add proper variations to the images, like feminizing some source images and even changing race for some.
 
 ## Concrete Crack Classifier
 
